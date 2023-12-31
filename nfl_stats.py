@@ -50,7 +50,7 @@ for player in sorted(total_yards, key=total_yards.get, reverse=True):
         yards.append(total_yards[player])
 
 # plot the players by their number of passing yards
-        
+
 plt.bar(players, yards)
 plt.xlabel("Players")
 plt.ylabel("Total Yards")
